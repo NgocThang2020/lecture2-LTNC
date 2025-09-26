@@ -21,7 +21,7 @@
             thongbao += this.txtPass.Text;
             if (this.chkNho.Checked == true)
 
-            { thongbao += "\n\rBạn có ghi nhớ."; }
+            { thongbao += "\n\rSave completed."; }
             MessageBox.Show(thongbao, "Thông báo");
         }
 
